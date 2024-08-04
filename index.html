@@ -84,112 +84,7 @@ Fancybox.bind("[data-fancybox]", {
             <div id="pjax">
 <div class="content_top">
 
-  <!-------------------------------------------------------------文----------------------------------------------------------------------------------> 
-	<article class="index_ajax index_list index_card match_bg match_color">
-		  <div class="XY-head-tx">
-                    <!-- 男头像 -->
-                    <div class="portrait">
-                        <img src="./img/z.jpg">
-                                
-                    </div>
-
-
-			  
-                    <!-- 心 -->
-                    <div class="love"><img src="./img/qq.gif"></div>
-
-
-			 
-
-			  
-                    <!-- 女头像 -->
-                    <div class="portrait">
-                        <img src="./img/y.jpg">
-                    </div>
-       </div>
-
-<p></p>
-
-		<div class="box"><center> <font><span id="runtime_span"></span> <script type="text/javascript">
-							function show_runtime(){
-								window.setTimeout("show_runtime()", 1000);
-								X = new								Date("11/29/2000 00:00:00");
-								Y = new Date();
-								T = (Y.getTime() - X.getTime());
-								M = 24 * 60 * 60 * 1000;
-								a = T / M;
-								A = Math.floor(a);
-								b = (a - A) * 24;
-								B = Math.floor(b);
-								c = (b - B) * 60;
-								C = Math.floor((b - B) * 60);
-								D = Math.floor((c - C) * 60);
-							runtime_span.innerHTML = "来到这个世界的第" + A + "天" + B + "小时" + C + "分" + D + "秒" }
-							show_runtime();
-						</script>  </font>
-					</center>
-				<p></p></div> 
-
-
- 	<style type="text/css">
-  /*头部头像*/
-.XY-head-tx{
-	margin-bottom: 10px;
-	/*outline: 1px #f00 solid;*/
-	text-align: center;
-}
-/*头像*/
-.XY-head-tx .portrait{
-    background:linear-gradient(0deg,rgba(148,188,207,1) 1%,rgba(144,204,220,1) 100%);
-    border:3px solid rgba(255, 255, 255, 1);
-    box-shadow:0px 0px 7px 3px rgba(155,155,155,0.2);
-    border-radius:50%;
-    overflow: hidden;
-    display:inline-block;
-}
-.XY-head-tx .portrait:hover {
-	animation: dou 0.9s;   /*抖动*/
-}
-.XY-head-tx .portrait{
-    width: 5rem;
-    height: 5rem;
-}
-.XY-head-tx .portrait img{
-	width: 100%;
-	height: 100%;
-}
-/*心*/
-.XY-head-tx .love{
-    display:inline-block;
-    width: 4.5rem;
-    height: 4.5rem;
-    margin: 0px 8px;
-    font-size: 1rem;
-}
-.XY-head-tx .love img{
-	width: 100%;
-	height: 100%;
-}
-
-
-@media (min-width:768px){
-	.XY-box img{
-	    height: 40px;
-    }
-}@media (min-width:992px){
-	.XY-box img{
-	    height: 140px;
-    }
-}@media (min-width:1200px){
-	.XY-box img{
-	    height: 240px;
-    }
-}
-
-</style> 
- </article>    
-
-<!-------------------------------音乐--------------------->  
+  <!-------------------------------音乐--------------------->  
 <article class="index_ajax index_list index_card match_bg match_color">
 <center>
 <div id="player3" class="aplayer">
@@ -265,6 +160,29 @@ Fancybox.bind("[data-fancybox]", {
                   “总有些惊奇的际遇 比方说当我遇见你”
 </div> 
 </center>
+
+		<div class="box"><center> <font><span id="runtime_span"></span> <script type="text/javascript">
+							function show_runtime(){
+								window.setTimeout("show_runtime()", 1000);
+								X = new								Date("11/29/2000 00:00:00");
+								Y = new Date();
+								T = (Y.getTime() - X.getTime());
+								M = 24 * 60 * 60 * 1000;
+								a = T / M;
+								A = Math.floor(a);
+								b = (a - A) * 24;
+								B = Math.floor(b);
+								c = (b - B) * 60;
+								C = Math.floor((b - B) * 60);
+								D = Math.floor((c - C) * 60);
+							runtime_span.innerHTML = "来到这个世界的第" + A + "天" + B + "小时" + C + "分" + D + "秒" }
+							show_runtime();
+						</script>  </font>
+					</center>
+				<p></p></div> 
+
+
+
 </article>  
           
    
